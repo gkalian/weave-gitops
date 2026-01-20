@@ -7,7 +7,7 @@
 replicaCount: 1
 image:
   # FIXME check the app name
-  repository: ghcr.io/weaveworks/wego-app
+  repository: ghcr.io/gkalian/wego-app
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
   tag: "v0.39.0-rc.2" # x-release-please-version
